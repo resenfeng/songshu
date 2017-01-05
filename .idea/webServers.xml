@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9c04aab4-2187-494d-b362-250c464a3e8d" name="服务器" url="http://112.124.107.125">
+        <fileTransfer host="112.124.107.125" port="13001" rootFolder="/home/yyz/www/songshu" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="13001" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
