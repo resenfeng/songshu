@@ -59,8 +59,8 @@ function login_hide() {
 
 function register_hide() {
     var email = $(".re_email");
-    var userId = $(".userName");//用户名
-    var password = $(".userPwd");
+    var userId = $(".re_username");//用户名
+    var password = $(".re_password");
     var password1=$(".re_password1");
     var msg = "";
     // alert(userId.val());
@@ -88,18 +88,41 @@ function register_hide() {
     }
     else{
 
+        // $.ajax({
+        //     url:'handleRequest.php',
+        //     type:'post',
+        //     dataType:'json',
+        //     data:{email:email.val(),userName:userId.val(),userPwd:password.val(),operation:"register"},
+        //     success:function(data){
+        //         document.getElementById("register").style.display = "none";
+        //         document.getElementById("login").style.display = "none";
+        //         document.getElementById("account").style.display = "block";
+        //         $("#loginBtn").hide();
+        //         $("#registerBtn").hide();
+        //         alert(data.message);
+        //     }
+        // });
+
         $.ajax({
-            url:'http://223.3.93.117:8010/',
+            url:'handleRequest.php',
             type:'post',
             dataType:'json',
-            data:{email:email.val(),userName:userId.val(),userPwd:password.val()},
+            data:{email:email.val(),userName:userId.val(),userPwd:password.val(),operation:"register"},
             success:function(data){
+                // location.reload();
                 document.getElementById("register").style.display = "none";
                 document.getElementById("login").style.display = "none";
                 document.getElementById("account").style.display = "block";
+                // $("#register").hide();
+                // $("#login").hide();
+                // $("#account").show();
                 $("#loginBtn").hide();
                 $("#registerBtn").hide();
-                alert(data);
+                alert(data.message);
+
+            },
+            error:function () {
+                alert("fail");
             }
         });
 
@@ -128,4 +151,6 @@ function login_show() {
     document.getElementById("account").style.display = "none";
     $("#loginBtn").show();
     $("#registerBtn").show();
+    $.cookie("userName","");
+    alert($.cookie("userName"));
 }

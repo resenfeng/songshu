@@ -54,7 +54,10 @@ class sqlOperation
             $querySql .= " from " . $tText . " where ";
         }else{
             $tText = $this->tables['table'];
-            $querySql .= " from " . $tText . " where ";
+            if ($this->conditions == null)
+                $querySql .= " from " . $tText;
+            else
+                $querySql .= " from " . $tText . " where ";
         }
 
         foreach ($this->conditions as $cKey => $cVal) {
@@ -116,8 +119,8 @@ class sqlOperation
 //        }
         $insertSql = "insert into " . $this->tables . " (" . $keyText . ") " . "values" . " (" . $valText . ")";
         if (!mysql_query($insertSql, connect()))
-            return false;
+            return $insertSql;
         else
-            return true;
+            return $insertSql;
     }
 }

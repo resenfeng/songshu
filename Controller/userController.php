@@ -51,8 +51,8 @@ class userController
 
         $userInfoFields = array(
             "user_info_id" => $count['count(user_id)'],
-            "user_name" => $data['username'],
-            "user_password" => md5($data['password'])
+            "user_name" => $data['userName'],
+            "user_password" => md5($data['userPwd'])
         );
         $userInfoTable = "userInfo";
 

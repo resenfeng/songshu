@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6642">
-              <caret line="369" column="100" selection-start-line="370" selection-start-column="87" selection-end-line="370" selection-end-column="100" />
+            <state relative-caret-position="43">
+              <caret line="388" column="27" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,10 +73,20 @@
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#17572#17579#0" expanded="true" />
+                <element signature="e#17659#17666#0" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#19739#19746#0" expanded="true" />
+                <element signature="e#19878#19885#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controller/userController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,9 +94,12 @@
       <file leaf-file-name="songshu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/js/songshu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="115" column="64" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="2520">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+              <folding>
+                <marker date="1483629886000" expanded="true" signature="1870:1925" ph="{...}" />
+                <marker date="1483629886000" expanded="true" signature="4942:4946" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,31 +234,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="songshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="songshu" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,21 +341,22 @@
       <workItem from="1482843497766" duration="8861000" />
       <workItem from="1483434737747" duration="685000" />
       <workItem from="1483615621350" duration="5470000" />
+      <workItem from="1483630440570" duration="646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53677000" />
+    <option name="totallyTimeSpent" value="54323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -452,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="265" column="56" selection-start-line="265" selection-start-column="56" selection-end-line="265" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,11 +538,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/123.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/123.jpg" />
     <entry file="file://$PROJECT_DIR$/Images/Index/c1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -655,17 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
-          <folding>
-            <marker date="1482648647552" expanded="true" signature="2963:3051" ph="insert into ${$this-&gt;tables}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/userController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,16 +659,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/songshu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="115" column="64" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="2520">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <folding>
+            <marker date="1483629886000" expanded="true" signature="1870:1925" ph="{...}" />
+            <marker date="1483629886000" expanded="true" signature="4942:4946" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6642">
-          <caret line="369" column="100" selection-start-line="370" selection-start-column="87" selection-end-line="370" selection-end-column="100" />
+        <state relative-caret-position="43">
+          <caret line="388" column="27" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -736,10 +719,18 @@
             <element signature="n#style#0;n#div#0;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#17572#17579#0" expanded="true" />
+            <element signature="e#17659#17666#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#19739#19746#0" expanded="true" />
+            <element signature="e#19878#19885#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/userController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,6 +751,6 @@
     </states>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAoOGBJc+t4x5RKf3IermCCz9nEWnHnXyYoZMNx/GXF2m8XIANQjvMbojePPngMQHgojo0OrJy9u/8dZS7froafR49PsRTX7if7e/vy/QdyaE0aQoXRiW0UFEjlOsjaF/+8NkYGwn5+rsIbZw11K98TaxQUOFQFiviyWJIajGZgICOz+fwn6LXMkKMaQutxz7gErrnYYDvXu4olTxdPWD9H8IpK4EZMGFY/Ttw6Fyiu3Sb</data>
+    <data>AAAAoMlPmleUbPMaCvndCcNf4QjWrMLi10HcbwpeuJIBlZKTjmeGSAqyyXLdQvBUoqbsBn4nJSs5TAFhw1miQWszGC+WTmvyf6fqwjLBeIjMbHQ1S+/u4ci2WdxCR/UBLERN/w4TOLbkfKwAQRI0Eh33K7SE0tvUSCS4/LZUPtz+4v7yOtb4/O32au7xnRzg3k8+3v01FmD8GuJtB42ZyEBvLrMg3jGfS0HHoN9py0wtOvmO</data>
   </component>
 </project>
