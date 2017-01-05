@@ -39,6 +39,11 @@ function login_hide() {
                     document.getElementById("register").style.display = "none";
                     document.getElementById("login").style.display = "none";
                     document.getElementById("account").style.display = "block";
+                    // $("#register").hide();
+                    // $("#login").hide();
+                    // $("#account").show();
+                    $("#loginBtn").hide();
+                    $("#registerBtn").hide();
                     alert($.cookie("userName"));
             },
             error:function () {
@@ -92,6 +97,8 @@ function register_hide() {
                 document.getElementById("register").style.display = "none";
                 document.getElementById("login").style.display = "none";
                 document.getElementById("account").style.display = "block";
+                $("#loginBtn").hide();
+                $("#registerBtn").hide();
                 alert(data);
             }
         });
@@ -113,7 +120,12 @@ function CheckMail(str)
 }
 
 function login_show() {
-    document.getElementById("register1").style.display = "block";
-    document.getElementById("login1").style.display = "block";
-    document.getElementById("account1").style.display = "none";
+    //  $("#register").show();
+    // $("#login").show();
+    // $("#account").hide();
+    document.getElementById("register").style.display = "block";
+    document.getElementById("login").style.display = "block";
+    document.getElementById("account").style.display = "none";
+    $("#loginBtn").show();
+    $("#registerBtn").show();
 }

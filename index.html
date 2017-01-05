@@ -90,8 +90,8 @@
                     <!--</script>-->
                     <a class="navbar-brand" href="">高级搜索</a>
                     <div class="nav navbar-nav navbar-right">
-                        <button class="btn btn-default navbar-btn btn-primary" type="button" data-toggle="modal" data-target="#login" data-whatever="@mdo">登录 </button>
-                        <button class="btn btn-default navbar-btn btn-primary" type="button" data-toggle="modal" data-target="#register" data-whatever="@mdo">注册 </button>
+                        <button id="loginBtn" class="btn btn-default navbar-btn btn-primary" type="button" data-toggle="modal" data-target="#login" data-whatever="@mdo">登录 </button>
+                        <button id="registerBtn" class="btn btn-default navbar-btn btn-primary" type="button" data-toggle="modal" data-target="#register" data-whatever="@mdo">注册 </button>
                         <li id="account" class="dropdown" style="width: 110px; display: none;">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好！ <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -327,7 +327,7 @@
                                 <label class="control-label ">验证码:</label>
                                 <div>
                                     <input placeholder="请输入4位验证码" type="text" class="verifyCode" style=" width:280px; height:34px;" name="verifyCode">
-                                    <img src="./Library/verifyImage.php" id="verify" alt="" onclick="javascript:this.src='./Library/verifyImage.php?tm='+Math.random()" />
+                                    <img src="http://112.124.107.125:8011/Library/verifyImage.php" id="verify" alt="" onclick="javascript:this.src='http://112.124.107.125:8011/Library/verifyImage.php?tm='+Math.random()" />
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -389,9 +389,9 @@
 
     }
 
-     $(function () {
-         login_show();
-     });
+//     $(function () {
+//         login_show();
+//     });
 
         </script>
         
